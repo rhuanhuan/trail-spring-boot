@@ -9,4 +9,9 @@ public class UserController {
     public String index() {
         return "Hello World";
     }
+
+    @RequestMapping("/users")
+    public String getUsers() {
+        return "Hello World";
+    }
 }
